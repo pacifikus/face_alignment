@@ -3,11 +3,11 @@ import numpy as np
 from bounding_box import BoundingBox
 from shape_regressor import ShapeRegressor
 
-img_num = 10  # 1345
+img_num = 1345
 candidate_pixel_num = 400
 fern_pixel_num = 5
 first_level_num = 10
-second_level_num = 1  # 500
+second_level_num = 500
 landmark_num = 29
 initial_number = 20
 images = []
